@@ -1,14 +1,14 @@
 html{
-  --primary-color:#f4f4f4;
-  --secondary-color:#A8983D;
-  --primary-font-color:#A8983D;
+  --primary-color:#BDDDFC;
+  --secondary-color:#6A89A7;
+  --primary-font-color:#041121;
   --buttons-color:#0B2647;
   --lightbulb-color:#0B2647;
 }
 
 [data-theme="dark"]{
   --primary-color:#041121;
-  --secondary-color:#A8983D;
+  --secondary-color:#6A89A7;
   --primary-font-color:#f4f4f4;
   --lightbulb-color: #ffd93d;
 }
@@ -32,7 +32,9 @@ main{
 }
 
 h1{
-  font-size:clamp(16px, 2vw, 20px);
+  font-size:clamp(25px, 5vw, 40px);
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--primary-font-color);
 }
 
 .cirkel{
@@ -62,6 +64,7 @@ button{
   background-position: center;
   /* dit voorkomt stretchen */
   background-size: contain; 
+  border: 3px solid var(--secondary-color);
 }
 
 /* Reduce Motion */
