@@ -67,13 +67,13 @@ button{
 /* Reduce Motion */
 ul li:nth-child(1) button{
   border-radius:100%;
-  background-image:url("/images/reducemotionsvg.svg");
+  background-image:url("./images/reducemotionsvg.svg");
 }
 
 /* Ik */
 ul li:nth-child(2) button{
   border-radius:20px;
-  background-image:url(/images/karaktersvg.svg);
+  background-image:url(./images/karaktersvg.svg);
 }
 
 /* Goals*/
@@ -81,7 +81,7 @@ ul li:nth-child(3) button{
   width:clamp(75px, 12vw, 125px);
   height:clamp(125px, 15vw, 200px);
   border-radius:20px;
-  background-image:url(/images/doelensvg.svg);
+  background-image:url(./images/doelensvg.svg);
 }
 
 /* Light/Dark */
@@ -90,7 +90,7 @@ ul li:nth-child(4) button{
   border-radius:50%;
   width:clamp(75px, 12vw, 125px);
   height:clamp(95px, 15vw, 150px);
-  background-image:url(/images/gloeilampsvg2.svg);
+  background-image:url(./images/gloeilampsvg2.svg);
 }
 
 
