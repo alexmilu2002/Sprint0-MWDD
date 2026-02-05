@@ -1,22 +1,21 @@
-const lightMode = document.querySelector('.sun');
-const darkMode = document.querySelector('.moon');
+const themeToggle = document.querySelector('.theme-toggle');
 
-const currentTheme = localStorage.getItem('theme');
+// Check wat het huidige theme is (of standaard light)
+const currentTheme = localStorage.getItem('theme') || 'light';
+setTheme(currentTheme);
 
 function setTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   localStorage.setItem('theme', theme);
 }
 
-lightMode.onclick = function () {
-  setTheme('light');
-};
+themeToggle.addEventListener('click', () => {
+  const activeTheme = document.documentElement.getAttribute('data-theme');
 
-darkMode.onclick = function () {
-  setTheme('dark');
-};
-
-if (currentTheme) {
-  document.documentElement.setAttribute('data-theme', currentTheme);
-}
+  if (activeTheme === 'light') {
+    setTheme('dark');
+  } else {
+    setTheme('light');
+  }
+});
 
