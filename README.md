@@ -18,14 +18,18 @@
 <h1>Dag 2 05/06/2026</h1>
 
 <h2>Wat heb ik vandaag gedaan?</h2>
-<p>theming (Light Mode en Dark Mode), HSL OKLCH, RGB. Accent Color voor de Focus. Font Inherit. Responsiveness. maxwidth en maxheight, viewwidth, clamp, utopia.fyi. object-fit:cover en object-position:.  grid-template-columns:repeat(auto-fit, 10em);. grid-template-area </p>
+<p> Vandaag ben ik de dag wederom begonnen met 2 workshops. Ik vond beide workshops heel interessant. De eerste ging over Theming. Hier heb ik geleerd hoe je meet root (of html) thema's kunt creeeren voor je light/dark mode. Ook heb ik geleerd dat het eigenlijk handiger is om HSL of OKLCH te gebruiken in plaats van RGB omdat je beter kunt inschatten welke kleur het is op basis van de code. De tweede workshop liet gaf mij weer een refresh over hoe je eigenlijk moest coderen om een responsive site te maken. We oefenden met maxwidth en maxheight. En ik heb een tip gekregen die ik handig vind en gelijk heb toegepast bij mijn eigen site, namelijk "Clamp". Verder heb ik alle tips die ik bij de workshops heb gekregen toegepast in mijn eigen code. Ik heb ook kleuren, fonts en plaatjes uitgezocht. </p>
 
 <h2>Hoelang duurde het?</h2>
+<p>Workshop's: 2uur</p>
+<p>Workshop Tips toepassen in eigen Site: 2 uur</p>
+<p>Kleuren, Lettertype's en SVG's zoeken: 1 uur</p>
 <p></p>
 
 
 <h2>Wat heb ik geleerd?</h2>
-<p></p>
+<p>Theming (Light Mode en Dark Mode), HSL OKLCH, RGB. Accent Color voor de Focus. Font Inherit. </p>
+<p>Responsiveness. maxwidth en maxheight, viewwidth, clamp, utopia.fyi. object-fit:cover en object-position:.  grid-template-columns:repeat(auto-fit, 10em);. grid-template-area</p>
 
 <h2>Wat ga ik morgen doen?</h2>
-<p></p
+<p>Morgen is een korte dag, maar ik wil in ieder geval een aantal contrast foutjes verbeteren, en een begin maken aan het slinger effect</p
