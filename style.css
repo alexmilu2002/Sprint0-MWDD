@@ -67,19 +67,19 @@ button{
   border: 3px solid var(--secondary-color);
 }
 
-/* Reduce Motion */
+/* Reduce Motion Knop */
 ul li:nth-child(1) button{
   border-radius:100%;
-  background-image:url("./images/reducemotionsvg.svg");
+  background-image:url("./images/reducemotionsvg2.svg");
 }
 
-/* Ik */
+/* Ik Knop*/
 ul li:nth-child(2) button{
   border-radius:20px;
   background-image:url(./images/karaktersvg.svg);
 }
 
-/* Goals*/
+/* Goals Knop*/
 ul li:nth-child(3) button{
   width:clamp(75px, 12vw, 125px);
   height:clamp(125px, 15vw, 200px);
@@ -87,7 +87,7 @@ ul li:nth-child(3) button{
   background-image:url(./images/doelensvg.svg);
 }
 
-/* Light/Dark */
+/* Light/Dark Knop*/
 ul li:nth-child(4) button{
   background-color: var(--lightbulb-color);
   border-radius:50%;
@@ -95,6 +95,22 @@ ul li:nth-child(4) button{
   height:clamp(95px, 15vw, 150px);
   background-image:url(./images/gloeilampsvg2.svg);
 }
+
+dialog{
+  width:clamp(300px, 90vw, 1000px);
+  height:clamp(300px, 60vw, 600px);
+  background-color: var(--secondary-color);
+  border-radius: 3%;
+  border: 3px solid var(--primary-font-color);
+}
+
+dialog::backdrop {
+  background-color: #fff5;
+  backdrop-filter: blur(4px);
+}
+
+
+
 
 
 
