@@ -43,6 +43,10 @@ h1{
   border:1.5em solid var(--secondary-color);
   border-radius:50%;
   background-color:var(--primary-color);
+  background-image:url(./images/motioniconsvg.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 ul{
@@ -67,10 +71,10 @@ button{
   border: 3px solid var(--secondary-color);
 }
 
-/* Reduce Motion Knop */
+/* Random Student Knop */
 ul li:nth-child(1) button{
   border-radius:100%;
-  background-image:url("./images/reducemotionsvg2.svg");
+  background-image:url(./images/randomstudentsvg.svg);
 }
 
 /* Ik Knop*/
@@ -97,8 +101,8 @@ ul li:nth-child(4) button{
 }
 
 dialog{
-  width:clamp(300px, 90vw, 1000px);
-  height:clamp(300px, 60vw, 600px);
+  width:clamp(300px, 60vw, 700px);
+  height:clamp(450px, 60vw, 500px);
   background-color: var(--secondary-color);
   border-radius: 3%;
   border: 3px solid var(--primary-font-color);
@@ -108,14 +112,3 @@ dialog::backdrop {
   background-color: #fff5;
   backdrop-filter: blur(4px);
 }
-
-
-
-
-
-
-
-
-
-
-
