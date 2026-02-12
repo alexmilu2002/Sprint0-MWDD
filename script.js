@@ -133,13 +133,6 @@ const profileDialog = document.getElementById("profileDialog");
 const showGoalsDialogBtn = document.querySelector(".buttongoals");
 const goalsDialog = document.getElementById("goalsDialog");
 
-showRandomizeDialogBtn.addEventListener("click", function() {
-  haalRandomMinormensOp();
-  });
-
+showRandomizeDialogBtn.addEventListener("click", function() {haalRandomMinormensOp();});
 showProfileDialogBtn.addEventListener("click", () => profileDialog.showModal());
-
 showGoalsDialogBtn.addEventListener("click", () => goalsDialog.showModal());
-
-
-
