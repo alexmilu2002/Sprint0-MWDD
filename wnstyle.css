@@ -265,7 +265,7 @@ dialog h2{
 
 dialog img{
   grid-area: image;
-  width: 100%;
+  width: 90%;
   aspect-ratio: 1/1;
   object-fit: cover;
   border: 3px solid var(--metal-mid);
