@@ -82,6 +82,7 @@ async function haalRandomMinormensOp() {
   randomNumber = Math.floor(Math.random() * responseData.length);
   let randomFavFruit = responseData[randomNumber].fav_fruit;
 
+  // En nu: in je HTML zetten (zoals je docent wil)
   if (dialogDestinationRandomize) {
     dialogDestinationRandomize.innerHTML = `
       <h2>Randomized Student</h2>
@@ -101,6 +102,26 @@ async function haalRandomMinormensOp() {
   }
   randomizeDialog.showModal();
 }
+
+//Light en Dark Mode
+const themeToggle = document.querySelector('.themetoggle');
+
+// Check wat het huidige theme is.
+function setTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme);
+}
+
+// Eventlistener die reageert wanneer er op de Light/Dark Knop wordt gedrukt
+themeToggle.addEventListener('click', () => {
+  const activeTheme = document.documentElement.getAttribute('data-theme');
+
+  if (activeTheme === 'light') {
+    setTheme('dark');
+  } else {
+    setTheme('light');
+  }
+});
 
 //Dialog Pop-Up
 const showRandomizeDialogBtn = document.querySelector(".randomstudent")
