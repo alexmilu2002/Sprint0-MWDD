@@ -12,6 +12,13 @@ html{
   --lightbulb-color:#0B2647;
 }
 
+[data-theme="dark"]{
+  --primary-color:#041121;
+  --secondary-color:#6A89A7;
+  --primary-font-color:#f4f4f4;
+  --lightbulb-color:#ffd93d;
+}
+
 body{
   background-color: var(--primary-color);
   display: flex;
@@ -147,13 +154,10 @@ h1{
   width:clamp(75px, 12vw, 125px);
   height:clamp(95px, 15vw, 150px);
   background-image: url(./images/gloeilampsvg2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  border: 3px solid var(--secondary-color);
-  display: inline-block;
-  cursor: pointer;
-  flex-shrink: 0;
+}
+
+.buttonlist button.themetoggle{
+  background-color: var(--lightbulb-color);
 }
 
 /* Dialog */
